@@ -1,6 +1,8 @@
 export interface Tasks{
     id: number,
     title: string,
-    completed: boolean,
-    editing:boolean
+    editing:boolean,
+    completed:boolean,
+    text: string,
+    user_id:number
 }

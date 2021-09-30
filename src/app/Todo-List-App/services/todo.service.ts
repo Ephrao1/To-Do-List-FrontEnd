@@ -3,7 +3,7 @@ import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
 import { map } from "rxjs/operators";
 import { Tasks } from "../models/todo-interface";
-const URL = '/tasks';
+const URL = 'http://127.0.0.1:5000/todo';
 @Injectable({
     providedIn: 'root'
 })

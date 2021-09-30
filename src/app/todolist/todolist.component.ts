@@ -42,6 +42,7 @@ export class TodolistComponent implements OnInit {
         this.todoService
             .getTodo()
             .subscribe(data => this.tasks = data);
+            console.log(this.tasks);
     }
     
     addTask(){
@@ -49,17 +50,19 @@ export class TodolistComponent implements OnInit {
         
         this.todoService.addTask({id:this.taskId,
             title: this.taskTitle,
-            completed: false,
-            editing: false})
+            completed:false,
+            editing:false,
+            text: "",
+            user_id: 3})
             .subscribe((data: Tasks) => {
                 console.log(data);
             });
-            this.tasks.push({
-                id:this.taskId,
-                title: this.taskTitle,
-                completed: false,
-                editing: false
-            })
+            // this.tasks.push({
+            //     id:this.taskId,
+            //     title: this.taskTitle,
+            //     completed: false,
+            //     editing: false
+            // })
             this.taskTitle ='';
             this.ngOnInit();
     }
