@@ -1,0 +1,17 @@
+.card {
+    font-size: 20px;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 17px rgba(0, 255, 255, 0.527);
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+  }
+
+ #view {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+}
