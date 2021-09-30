@@ -21,7 +21,7 @@
                     </ng-template>
 
                     <!-- buttons switching -->
-                    <div *ngIf="!task.editing; else doneBtn" ><button [ngClass] = "{disabled: task.completed}" class="btn btn-success listBtn"(click)="toggleEdit(task)" ><i class="fa fa-edit"> </i>Edit</button></div>    
+                    <div *ngIf="!task.editing; else doneBtn" ><button [ngClass] = "{disabled: task.completed}" class="btn btn-success listBtnedit"(click)="toggleEdit(task)" ><i class="fa fa-edit"> </i>Edit</button></div>    
                     <ng-template #doneBtn>
                     <div>
                         <button class="btn btn-success listBtn"(click)="editTask(task); toggleEdit(task)" ><i class="fa fa-edit"></i> Done</button>
@@ -29,7 +29,7 @@
                     </ng-template>
                 
                     <div>
-                        <button class="btn btn-danger listBtn" (click)="deleteTask(task.id)"><i   class="fa fa-trash"> </i> Del</button>
+                        <button class="btn btn-danger listBtndel" (click)="deleteTask(task.id)"><i   class="fa fa-trash"> </i> Del</button>
                     </div>
                 </li>
             </ul>
