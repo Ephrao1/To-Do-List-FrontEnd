@@ -34,6 +34,18 @@ li > *{
     margin: 2px;
 }
 
+.listBtnedit{
+    max-width: 80px;
+    margin: 2px;
+    background-color: green;
+}
+
+.listBtndel{
+    max-width: 80px;
+    margin: 2px;
+    background-color: red;
+}
+
 
 
 .main{
