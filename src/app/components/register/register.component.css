@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "Muli-Regular";
     src: url("../fonts/muli/Muli-Regular.ttf"); }
   @font-face {
@@ -6,7 +6,7 @@
     src: url("../fonts/muli/Muli-SemiBold.ttf"); }
   @font-face {
     font-family: "Muli-Bold";
-    src: url("../fonts/muli/Muli-Bold.ttf"); }
+    src: url("../fonts/muli/Muli-Bold.ttf"); } */
   * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -26,8 +26,6 @@
   p, h1, h2, h3, h4, h5, h6, ul {
     margin: 0; }
   
-  img {
-    max-width: 100%; }
   
   ul {
     padding-left: 0;
@@ -51,7 +49,8 @@
     margin: auto;
     padding-top: 68px;
     padding-bottom: 48px;
-    background: url("../images/registration-form-2.jpg"); }
+  }
+    /* background: url("../images/registration-form-2.jpg"); } */
     .inner h3 {
       text-transform: uppercase;
       font-size: 22px;
